@@ -1,4 +1,62 @@
-# React + TypeScript + Vite
+# Task Manager - TDD Demo with Unit & E2E Tests
+
+A complete demonstration of Test-Driven Development (TDD) with React, TypeScript, and Vite featuring both unit tests and E2E tests.
+
+## ✨ Features
+
+- ✅ Add tasks to a list
+- ✅ Delete tasks
+- ✅ Mark tasks as completed
+- ✅ Responsive design
+
+## 🧪 Testing
+
+This project demonstrates complete testing coverage:
+
+### Unit Tests (Vitest + React Testing Library)
+```bash
+npm test           # Run in watch mode
+npm run test:run   # Run once
+npm run test:ui    # Run with UI
+```
+
+### E2E Tests (Playwright)
+```bash
+npm run test:e2e       # Run E2E tests
+npm run test:e2e:ui    # Run with UI mode
+npm run test:e2e:debug # Debug mode
+```
+
+### CI/CD Pipeline
+Tests automatically run on GitHub Actions for every push to `main` branch.
+
+## 📦 Tech Stack
+
+- **Frontend:** React 19 + TypeScript
+- **Build:** Vite
+- **Unit Testing:** Vitest + React Testing Library
+- **E2E Testing:** Playwright
+- **CI/CD:** GitHub Actions
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Run dev server
+npm run dev
+
+# Run all tests
+npm test
+npm run test:e2e
+```
+
+See [TEST-SUMMARY.md](TEST-SUMMARY.md) for detailed test documentation.
+
+---
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
