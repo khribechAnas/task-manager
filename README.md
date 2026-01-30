@@ -4,7 +4,7 @@ A complete demonstration of Test-Driven Development (TDD) with React, TypeScript
 
 ## ✨ Features
 
-- ✅ Add tasks to a list
+- ✅ Add tasks to a list.
 - ✅ Delete tasks
 - ✅ Mark tasks as completed
 - ✅ Responsive design
