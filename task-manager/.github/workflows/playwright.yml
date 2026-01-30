@@ -1,4 +1,6 @@
 name: Playwright Tests
+
+# Runs on every push to main/master and pull requests
 on:
   push:
     branches: [ main, master ]
